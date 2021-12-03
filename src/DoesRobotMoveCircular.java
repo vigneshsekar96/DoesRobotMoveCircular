@@ -11,7 +11,6 @@ public class DoesRobotMoveCircular {
     private static boolean doesRobotMoveCircular(String str) {
         int x = 0;
         int y = 0;
-
         char currentPlane = 'n';
         str = str.toUpperCase();
         for (int i = 0; i < str.length(); i++) {
